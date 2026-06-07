@@ -1,0 +1,19 @@
+Open/Closed Principle (OCP)
+
+Definition:
+Software entities (classes, modules, functions) should be open for extension but closed for modification.
+
+Purpose:
+New functionality should be added by extending existing code rather than changing already tested code.
+
+Example:
+Instead of modifying a PaymentProcessor class every time a new payment method is added, create a common Payment interface and implement separate classes such as CreditCardPayment, UpiPayment, and PayPalPayment.
+
+Benefits:
+- Reduces risk of introducing bugs
+- Improves maintainability
+- Makes code easier to extend
+- Encourages flexible and scalable design
+
+In short:
+"Open for extension, closed for modification."
