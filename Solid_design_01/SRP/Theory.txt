@@ -1,0 +1,23 @@
+Single Responsibility Principle (SRP)
+
+Definition:
+A class, module, or function should have only one responsibility and one reason to change.
+
+Purpose:
+SRP helps keep code simple, maintainable, reusable, and easy to test.
+
+Example:
+Instead of having one class handle user management, email sending, and report generation, create separate classes for each responsibility:
+- UserService: Manages users
+- EmailService: Sends emails
+- ReportService: Generates reports
+
+Benefits:
+- Easier maintenance
+- Better readability
+- Improved testability
+- Reduced coupling
+- Higher reusability
+
+In short:
+"One class, one responsibility."
