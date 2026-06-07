@@ -1,0 +1,18 @@
+Liskov Substitution Principle (LSP)
+
+Definition:
+Objects of a derived class should be able to replace objects of their base class without affecting the correctness or expected behavior of the program.
+
+Purpose:
+LSP ensures that inheritance is used correctly and that subclasses can be substituted for their parent classes without causing errors or unexpected results.
+
+Example:
+Consider a Rectangle class and a Square class that inherits from it. If changing the width of a square also changes its height, then a Square cannot always behave like a Rectangle. This violates LSP because code expecting a Rectangle may not work correctly with a Square.
+
+Benefits:
+
+Ensures correct use of inheritance
+Promotes reliable polymorphism
+Reduces unexpected behavior
+Improves maintainability
+Enhances code reusability
